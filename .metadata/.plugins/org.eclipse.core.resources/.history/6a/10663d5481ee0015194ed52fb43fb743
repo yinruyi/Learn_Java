@@ -38,8 +38,6 @@ public class Test {
     	System.out.println(testSwitch(0));
     	Person tom = new Person(1,10);
     	System.out.println(tom.id);
-    	Point p1 = new Point(1,2,3);
-    	System.out.println(p1.getDistance(p1));
     	
     }
     public static int OddSum(){
@@ -88,19 +86,4 @@ class Person{
 	}
 }
 
-class Point{
-	private double x;
-	private double y;
-	private double z;
-	public Point(double _x, double _y, double _z){
-		x = _x; y = _y; z = _z;
-	};
-	public  double[] getPoint(){
-		double[] a = {x,y,z};
-		return a;
-	}
-	public double getDistance(Point p){
-		return (p.x+p.y+p.z);
-	}
-		
-}
+

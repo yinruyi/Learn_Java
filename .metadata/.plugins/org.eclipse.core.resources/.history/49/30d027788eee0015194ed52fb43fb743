@@ -39,7 +39,7 @@ public class Test {
     	Person tom = new Person(1,10);
     	System.out.println(tom.id);
     	Point p1 = new Point(1,2,3);
-    	System.out.println(p1.getDistance(p1));
+    	System.out.println(p1.getPoint());
     	
     }
     public static int OddSum(){
