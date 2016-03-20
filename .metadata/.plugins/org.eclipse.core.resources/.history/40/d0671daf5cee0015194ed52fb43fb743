@@ -36,8 +36,6 @@ public class Test {
         //aPerson.growHeight(10);
         //System.out.println(aPerson.getHeight());
     	System.out.println(testSwitch(0));
-    	Person tom = new Person(1,10);
-    	System.out.println(tom.id);
     	
     }
     public static int OddSum(){
@@ -74,16 +72,6 @@ public class Test {
     	return tt;
     }
     
-}
-
-class Person{
-	public int id;
-	private int age;
-	public Person(int _id, int _age){
-		id = _id;
-		age = _age;
-		
-	}
 }
 
 

@@ -77,8 +77,8 @@ public class Test {
 }
 
 class Person{
-	public int id;
-	private int age;
+	int id;
+	int age;
 	public Person(int _id, int _age){
 		id = _id;
 		age = _age;
