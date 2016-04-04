@@ -3,10 +3,8 @@ package leetcode;
 public class Solution {
 	public static void main(String[] args){
 		System.out.println("hello leetcode");
-		addDigits(19);
+		addDigits(190);
 	}
-	
-	
 	public static int addDigits(int num){
 		//258
 		String s = String.valueOf(num);
@@ -16,13 +14,13 @@ public class Solution {
 			item = s.charAt(i);
 			sum += Integer.parseInt(String.valueOf(item));
 		}
-		if(String.valueOf(sum).length()>1){
-			sum = addDigits(sum);
-		}
-		System.out.println(sum);
 		return sum;
 	}
 	
+	private static Object range(int i, int length) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	public static boolean canWinNim(int n){
 		//292
 		return (n%4) > 0 ? true:false;
