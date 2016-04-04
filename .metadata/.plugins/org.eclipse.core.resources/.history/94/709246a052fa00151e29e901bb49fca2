@@ -3,26 +3,13 @@ package leetcode;
 public class Solution {
 	public static void main(String[] args){
 		System.out.println("hello leetcode");
-		int[] nums = {0,1,0,3,12};
-		System.out.println(nums.toString());
-		moveZeroes(nums);
+		int[] nums={1,2,3,40,0,2};
+		System.out.println(nums);
+		//nums.moveZeros();
 	}
-	
-    public static void moveZeroes(int[] nums) {
-    	//283
-    	int temp;
-    	for(int i=0;i<nums.length ;i++){
-    		if(nums[i]==0){
-    			for(int j=i;j<nums.length;j++){
-    				if(nums[j] != 0){
-	    				temp = nums[i];nums[i] = nums[j];nums[j] = temp;
-	    				break;
-    				}		
-    			}
-    		} 		
-    	}
-    	for(int i = 0; i < nums.length ;i++){
-    		System.out.print(nums[i]+",");
+    public void moveZeroes(int[] nums) {
+    	for(int i; nums.length ;i++){
+    		System.out.println(nums[i]);
     	}
         
     }

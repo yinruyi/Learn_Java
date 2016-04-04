@@ -7,7 +7,6 @@ public class Solution {
 		System.out.println(nums.toString());
 		moveZeroes(nums);
 	}
-	
     public static void moveZeroes(int[] nums) {
     	//283
     	int temp;
