@@ -7,9 +7,11 @@ public class Solution {
 	}
 	public static int addDigits(int num){
 		//258
+		String s = String.valueOf(num);
+		//System.out.println(s.length());
 		int sum = 0;
 		String ss = String.valueOf(num);
-//		String s[] = string.
+
 		System.out.println(ss);
 		return 0;
 	}

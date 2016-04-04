@@ -8,8 +8,8 @@ public class Solution {
 	public static int addDigits(int num){
 		//258
 		int sum = 0;
-		String ss = String.valueOf(num);
-//		String s[] = string.
+		String ss = num.toString();
+		String s[] = string.
 		System.out.println(ss);
 		return 0;
 	}
