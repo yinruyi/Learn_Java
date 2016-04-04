@@ -1,0 +1,20 @@
+package leetcode;
+
+public class Solution {
+	public static void main(String[] args){
+		System.out.println("hello leetcode");
+		addDigits(10);
+	}
+	public static int addDigits(int num){
+		//258
+		String s = String.valueOf(num);
+		
+		System.out.println(s);
+		return 0;
+	}
+	
+	public static boolean canWinNim(int n){
+		//292
+		return (n%4) > 0 ? true:false;
+	}
+}
