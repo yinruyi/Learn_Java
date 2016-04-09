@@ -5,17 +5,21 @@ import java.util.*;
 
 public class Solution {
 	public static void main(String[] args){
-		System.out.println(isAnagramSort("" ,""));
+		System.out.println(isAnagramSort("ashdwrhoaw" ,"ab"));
 	}
 
 	
 	public static boolean isAnagramSort(String s, String t) {
 		//242sort
-        char[] sArr = s.toCharArray();
-        char[] tArr = t.toCharArray();
-        Arrays.sort(sArr);
-        Arrays.sort(tArr);
-        return String.valueOf(sArr).equals(String.valueOf(tArr));
+		String[] sArray = s.toString().split("");
+		Arrays.sort(sArray);
+		s = String.join("", sArray);
+		for(int i = 0;i<sArray.length;i++){
+			System.out.println(sArray[i]);
+		}
+		System.out.println(s);
+		return true;
+		
 	}
     public static boolean isAnagram(String s, String t) {
     	//242
