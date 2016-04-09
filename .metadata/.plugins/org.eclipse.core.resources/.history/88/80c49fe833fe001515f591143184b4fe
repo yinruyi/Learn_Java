@@ -1,0 +1,12 @@
+package Main;
+import com.eclab.util.TextFile;
+import java.io.*;
+import java.util.*;
+
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("x");
+		String file = TextFile.read("H://dev//JavaModule//Module1//src//com//eclab//util//TextFile.java");
+		TextFile.write("test.txt", file);
+	}
+}

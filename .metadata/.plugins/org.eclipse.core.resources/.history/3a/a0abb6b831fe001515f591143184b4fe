@@ -1,0 +1,5 @@
+package com.eclab.util;
+
+public class TextFile {
+
+}

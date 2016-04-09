@@ -5,9 +5,19 @@ import java.util.*;
 
 public class Solution {
 	public static void main(String[] args){
-		System.out.println(isAnagramSort("" ,""));
+		System.out.println(hammingWeight(100));
 	}
 
+	public static int hammingWeight(int n){
+		//191
+		String s = Integer.toBinaryString(n);
+		int sum=0;
+		for(int i=0;i<s.toCharArray().length;i++){
+			sum += Integer.parseInt(""+s.toCharArray()[i]);
+		}
+		return sum;
+	}
+	
 	
 	public static boolean isAnagramSort(String s, String t) {
 		//242sort
