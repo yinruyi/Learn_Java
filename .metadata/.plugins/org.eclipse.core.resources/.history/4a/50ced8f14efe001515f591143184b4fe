@@ -5,20 +5,9 @@ import java.util.*;
 
 public class Solution {
 	public static void main(String[] args){
-		System.out.println(isPowerOfTwo(2));
+		System.out.println(hammingWeight(100));
 	}
 
-	
-    public static boolean isPowerOfTwo(int n) {
-    	//231
-        int count = 0;  
-        while (n > 0)  
-        {  
-            count+=(n&0x01);  
-            n>>=1;  
-        }  
-        return count==1; 
-    }
 	public static int hammingWeight(int n){
 		//191
 		String s = Integer.toBinaryString(n);
